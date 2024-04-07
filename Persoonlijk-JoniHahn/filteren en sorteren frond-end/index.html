@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>PURRFECT MATCH</h1>
+    </header>
+    <main>
+        
+        <button class="hamburgerbutton">hambut</button>
+        <div class="filterensorteren">
+            <p>Sorteren:</p>
+            <select id="startPositieSelect">
+                <option value="relevant" selected>Relevant</option>
+                <option value="jongNaarOud">Jong naar Oud</option>
+                <option value="oudNaarJong">Oud naar Jong</option>
+            </select>
+            
+            <section class="filter">
+                <div class="soort">
+                    <p>Soort:</p>
+                    <!-- <button class="butalle">Alle</button>
+                    <button class="buttijger">Tijger</button>
+                    <button class="butleeuw">Leeuw</button>
+                    <button class="butluipaard">Luipaard</button> -->
+                    <input type="checkbox" id="checktijger" name="diersoort" value="tijger">
+                    <label for="checktijger">Tijger</label>
+                    <input type="checkbox" id="checkleeuw" name="diersoort" value="leeuw">
+                    <label for="checkleeuw">Leeuw</label>
+                    <input type="checkbox" id="checkluipaard" name="diersoort" value="luipaard">
+                    <label for="checkluipaard">Luipaard</label>
+                    <input type="checkbox" id="checkspanther" name="diersoort" value="spanther">
+                    <label for="checkspanther">Sneeuwpanter</label>
+    
+                </div>
+                <div class="geslacht">
+                    <p>Geslacht:</p>
+                    <!-- <button class="butvrouw">Vrouw</button>
+                    <button class="butman">Man</button> -->
+                    <input type="checkbox" id="checkvrouw" name="geslacht" value="vrouw">
+                    <label for="checkvrouw">Vrouw</label>
+                    <input type="checkbox" id="checkman" name="geslacht" value="man">
+                    <label for="checkman">Man</label>
+                </div>
+            </section>
+        </div>
+       <ul class="alle">
+          <li class="leeuw man" data-leeftijd="1">
+            <a href="detail.html">
+                <img src="images/verticale-close-up-shot-van-een-prachtige-afrikaanse-luipaard-die-op-de-weg-loopt.jpg" alt="">
+                <div>
+                    <h2>Mufasa</h2>
+                    <h3>Leeuw</h3>
+                    <h4>Man, 1 jaar</h4>
+                    <p></p>
+                    <p>2.5 km</p>
+                </div>
+            </a>
+          </li>
+           <li class="luipaard vrouw" data-leeftijd="3">
+            <a href="detail.html">
+            <img src="images/verticale-close-up-shot-van-een-prachtige-afrikaanse-luipaard-die-op-de-weg-loopt.jpg" alt="">
+            <div>
+                <h2>Mufasa</h2>
+                <h3>Luipaard</h3>
+                <h4>Vrouw, 3 jaar</h4>
+                <p></p>
+                <p>2.5 km</p>
+            </div>
+        </a>
+           </li>
+           <li class="leeuw man" data-leeftijd="10">
+            <a href="detail.html">
+            <img src="images/close-up-shot-van-het-hoofd-van-een-mooie-leeuw.jpg" alt="">
+            <div>
+                <h2>Mufasa</h2>
+                <h3>Leeuw</h3>
+                <h4>Man, 10 jaar</h4>
+                <p></p>
+                <p>2.5 km</p>
+            </div>
+        </a>
+           </li>
+           <li class="tijger vrouw" data-leeftijd="7">
+            <a href="detail.html">
+            <img src="images/geweldige-bengaalse-tijger-in-de-natuur.jpg" alt="">
+            <div>
+                <h2>Mufasa</h2>
+                <h3>Tijger</h3>
+                <h4>Vrouw, 7 jaar</h4>
+                <p></p>
+                <p>2.5 km</p>
+            </div>
+        </a>
+           </li>
+           <li class="leeuw man" data-leeftijd="4">
+            <a href="detail.html">
+            <img src="images/close-up-shot-van-het-hoofd-van-een-mooie-leeuw.jpg" alt="">
+            <div>
+                <h2>Mufasa</h2>
+                <h3>Leeuw</h3>
+                <h4>Man, 4 jaar</h4>
+                <p></p>
+                <p>2.5 km</p>
+            </div>
+        </a>
+           </li>
+           <li class="luipaard vrouw" data-leeftijd="1">
+            <a href="detail.html">
+            <img src="images/verticale-close-up-shot-van-een-prachtige-afrikaanse-luipaard-die-op-de-weg-loopt.jpg" alt="">
+            <div>
+                <h2>Mufasa</h2>
+                <h3>Luipaard</h3>
+                <h4>Vrouw, 1 jaar</h4>
+                <p></p>
+                <p>2.5 km</p>
+            </div>
+        </a>
+           </li>
+           <li class="tijger vrouw" data-leeftijd="6">
+            <a href="detail.html">
+            <img src="images/geweldige-bengaalse-tijger-in-de-natuur.jpg" alt="">
+            <div>
+                <h2>Mufasa</h2>
+                <h3>Tijger</h3>
+                <h4>Vrouw, 6 jaar</h4>
+                <p></p>
+                <p>2.5 km</p>
+            </div>
+        </a>
+           </li>
+           <li class="tijger man" data-leeftijd="2">
+            <a href="detail.html">
+            <img src="images/geweldige-bengaalse-tijger-in-de-natuur.jpg" alt="">
+            <div>
+                <h2>Mufasa</h2>
+                <h3>Tijger</h3>
+                <h4>Man, 2 jaar</h4>
+                <p></p>
+                <p>2.5 km</p>
+            </div>
+        </a>
+           </li>
+           <li class="luipaard man" data-leeftijd="3">
+            <a href="detail.html">
+            <img src="images/verticale-close-up-shot-van-een-prachtige-afrikaanse-luipaard-die-op-de-weg-loopt.jpg" alt="">
+            <div>
+                <h2>Mufasa</h2>
+                <h3>Luipaard</h3>
+                <h4>Man, 3 jaar</h4>
+                <p></p>
+                <p>2.5 km</p>
+            </div>
+        </a>
+           </li>
+           <li class="leeuw vrouw" data-leeftijd="7">
+            <a href="detail.html">
+            <img src="images/leeuwin-portret.jpg" alt="">
+            <div>
+                <h2>Mufasa</h2>
+                <h3>Leeuwin</h3>
+                <h4>Vrouw, 7 jaar</h4>
+                <p></p>
+                <p>2.5 km</p>
+            </div>
+        </a>
+           </li>
+           <li class="spanther vrouw" data-leeftijd="7">
+            <a href="detail.html">
+            <img src="images/bedreigde-sneeuwluipaard-die-in-de-aardhabitat-rust-wilde-dieren-in-gevangenschap-mooie-aziatische-katachtige-en-carnivoor-uncia-uncia.jpg" alt="">
+            <div>
+                <h2>Mufasa</h2>
+                <h3>Sneeuw Luipaard</h3>
+                <h4>Vrouw, 7 jaar</h4>
+                <p></p>
+                <p>2.5 km</p>
+            </div>
+        </a>
+           </li>
+       </ul>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
